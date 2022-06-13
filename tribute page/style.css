@@ -1,0 +1,102 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    margin: 1em;
+}
+
+#main {
+    margin: 30px 8px;
+    padding: 15px;
+    border-radius: 5px;
+    background: #eee;
+}
+
+.title-container {
+   text-align: center;
+   margin: 2%;
+}
+
+#title {
+    font-size: 45px;
+    font-weight: bold;
+    margin: .3em;
+}
+
+#img-div {
+    /* display: flex;
+    flex-direction: column;
+    background-color: white;    
+    max-width: 85%;
+    margin: auto; */
+    border-radius: 5px;
+    background: white;
+    padding: 10px;
+    margin: 0;
+}
+
+/* 
+figure {
+    margin: 10px auto;
+} */
+
+#image {
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+    /* width: 1145px;
+    max-width: 85%;
+    margin: auto;
+    padding: .2em;
+    object-fit: cover;
+    padding-top: .2em; */
+}
+
+#img-caption {
+    margin-top: 1em;
+    text-align: center;
+}
+
+.tribute-title {
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    margin: 1.5em auto;
+}
+
+.tribute-item {
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(173, 173, 173);
+    border-radius: 5px;
+    margin: 1em;
+    padding: .5em;
+}
+
+.tributes {
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.tribute-description {
+    line-height: 1.2em;
+}
+
+.highligth {
+    font-style: italic;
+    font-size: 14px;
+    margin-left: 3em;
+}
+
+.highligth span {
+    font-weight: bold;
+}
+
+#tribute-link {
+    text-decoration: underline;
+}
+
+#tribute-link:hover {
+    font-weight: bold;
+}
